@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="css/estilos.css">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+<body>
+
+  <main id="app">
+    <div class="contenedor" id="contenedor">
+      
+      <div>
+        <div class="contenedor__icono">
+          <img src="images/icon-star.svg" alt="Imagen">
+        </div>
+      
+      </div>
+        <h1>How did we do?</h1>
+        <p class="parrafo1">Please let us know how we did with
+           your support request. All feedback i
+           s appreciated to help us improve o
+           ur offering</p>
+
+        <div class="contenedor__btns">
+          <input id="btn1" class="btn__nota" type="button" value="1">
+          <input id="btn2" class="btn__nota" type="button" value="2">
+          <input id="btn3" class="btn__nota" type="button" value="3">
+          <input id="btn4" class="btn__nota" type="button" value="4">
+          <input id="btn5" class="btn__nota" type="button" value="5">
+        </div>
+
+        <input id="btn__submit" class="btn__submit" type="button" value="SUBMIT">
+
+    </div>
+
+    <template id="template">
+      <div class="contenedor2" id="contenedor2">
+        <img src="images/illustration-thank-you.svg" width="200" alt="Gracias">
+        <input id="resultado__text" class="resultado__text" type="text" disabled>
+  
+        <h1>Thank you!</h1>
+        <p class="parrafo2">We app you taking the time to give a rating. <br>
+        If you ever need more support, dont't hesitate to get in touch!</p>
+      </div>
+    </template>
+      
+  </main>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Ginto11" target="blank">Nelson Muñoz</a>.
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
